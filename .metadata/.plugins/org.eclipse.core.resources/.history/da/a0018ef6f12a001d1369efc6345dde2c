@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Vendas {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		String nome;
+		double valorUnitario;
+		int quantidade;
+		int anoVencimento;
+	}
+}

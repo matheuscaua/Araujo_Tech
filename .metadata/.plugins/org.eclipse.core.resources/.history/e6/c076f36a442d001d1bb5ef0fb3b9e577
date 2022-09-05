@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Cadastro {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int opcao = 0;
+		System.out.println("- Digite 1 para Cadastro -");
+		System.out.println("- Para sair digite 4 -");
+		while(opcao != 4 ) {
+			
+		}
+	}
+}

@@ -1,0 +1,23 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Cadastro {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		HashMap<String, String> cadastro = new HashMap<>();
+		String nome;
+		String email;
+		int opcao;
+		System.out.println("- Digite 1 para Cadastro -");
+		System.out.println("- Para sair digite 4 -");
+		
+		opcao = input.nextInt();
+		while(opcao != 4 ) {
+			switch(opcao) {
+			case 1:
+				System.out.println("Nome: ");
+				cadastro.put(nome, email);
+			}
+		}
+	}
+}

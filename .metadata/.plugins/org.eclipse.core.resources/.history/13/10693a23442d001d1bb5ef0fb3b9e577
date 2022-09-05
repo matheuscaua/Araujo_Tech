@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Cadastro {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int opcao;
+		System.out.println();
+		while(opcao != 4 ) {
+			
+		}
+	}
+}

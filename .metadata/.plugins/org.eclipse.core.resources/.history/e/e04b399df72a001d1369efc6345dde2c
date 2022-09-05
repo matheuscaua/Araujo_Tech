@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class CalculaNota {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int x = 0;
+		int nota;
+		int media;
+		int soma = 0;
+		for (x = 0; x < 2; x++) {
+			System.out.println("Digite uma nota");
+			nota = input.nextInt();
+			soma = soma + nota;
+		}
+		media = soma / x;
+		
+		if(media > 4 && media < 5) {
+			System.out.println("Aluno Reprovado! ");
+		}
+		
+	}
+}

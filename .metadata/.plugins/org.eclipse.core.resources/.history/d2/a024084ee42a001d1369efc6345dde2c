@@ -1,0 +1,15 @@
+
+public class Calculo {
+	public static void main(String[] args) {
+		String produto;
+		int quantidade;
+		double valorUnitario;
+		
+		produto = "Mouse";
+		quantidade = 10;
+		valorUnitario = 350.00;
+		double total = quantidade * valorUnitario;
+		
+		System.out.println("O valor total de compra do produto: " + mouse + " é: " + total);
+	}
+}

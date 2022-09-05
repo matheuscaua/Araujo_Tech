@@ -1,0 +1,13 @@
+
+public class CalculaNota {
+	public static void main(String[] args) {
+		
+		int x = 0;
+		
+		double nota;
+		
+		for (x = 0; x < 2; x++) {
+			
+		}
+	}
+}

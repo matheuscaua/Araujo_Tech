@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Vendas {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		String nome;
+		double valorUnitario;
+		int quantidade;
+		int anoVencimento;
+		int anoAtual;
+		
+		double totalCompra = quantidade * valorUnitaroio;
+		
+		System.out.println("Nome do remédio: ");
+		nome = input.next();
+		System.out.println("Valor unitário: ");
+		valorUnitario = input.nextDouble();
+		System.out.println("Quantidade: ");
+		quantidade = input.nextInt();
+		System.out.println("Ano de Vencimento: ");
+		anoVencimento = input.nextInt();
+		System.out.println("Ano atual: ");
+		anoAtual = input.nextInt();
+		
+		
+	}
+}

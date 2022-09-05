@@ -1,0 +1,15 @@
+import java.util.HashMap;
+
+public class MatrizHashMap {
+	public static void main(String[] args) {
+		HashMap<String, String> cadastro = new HashMap<>();
+		//Adciona INSERT	
+		cadastro.put("Matheus", "matheus@teste.com");
+		//Retorna o registro
+		cadastro.get("Matheus");
+		//Remove
+		cadastro.remove("Matheus");
+		
+		cadastro.get(cadastro)
+	}
+}

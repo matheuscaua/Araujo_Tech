@@ -1,0 +1,12 @@
+
+public class Calculo {
+	public static void main(String[] args) {
+		String produto;
+		int quatidade;
+		double valorUnitario;
+		
+		produto = "Mouse";
+		quantidade = 10;
+		double total = quantidade * valorUnitario;
+	}
+}

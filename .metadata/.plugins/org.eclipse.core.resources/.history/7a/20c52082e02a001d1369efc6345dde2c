@@ -1,0 +1,9 @@
+
+public class Variaveis {
+	public static void main(String[] args) {
+		String string01;
+		int inteiro;
+		float flutuante;
+		double duplo;
+	}
+}
