@@ -13,9 +13,9 @@ public class Multiplicacao {
 		
 		for(int i = 0; i < y; i++) {
 			mult = mult + x;
-			System.out.println("--->"+mult);
+			System.out.printf("%d + ",x);
 		}
-		System.out.println("Resultado Final: "+mult);
+		System.out.println("=  "+mult);
 	}
 	
 

@@ -1,9 +1,0 @@
-
-public class CriandoMatriz {
-
-	public static void main(String[] args) {
-		String[] nome = {"Petrolina","Tarciano","Adroaldo","Romilda"
-};
-	}
-
-}
