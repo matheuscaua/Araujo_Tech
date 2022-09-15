@@ -1,0 +1,4 @@
+Nome: Fiote
+Média: 6,00
+Situação: Aprovado!
+----------------
