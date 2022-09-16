@@ -1,0 +1,10 @@
+Nome: Mouse
+Valor Unitário: 30
+Quantidade: 200
+Marca: Positivo
+Validade: 12/12/2006
+Nome: Mouse
+Valor Unitário: 30
+Quantidade: 200
+Marca: Positivo
+Validade: 12/12/2006

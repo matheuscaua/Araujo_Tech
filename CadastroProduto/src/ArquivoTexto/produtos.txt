@@ -1,0 +1,6 @@
+Nome: dasdas
+Valor Unitário: 14
+Quantidade: 14
+Marca: aasd
+Validade: null
+/------------------------------/
