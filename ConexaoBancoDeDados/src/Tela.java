@@ -291,6 +291,10 @@ public class Tela extends JFrame {
 		});
 		atualizar.setBounds(402, 207, 89, 23);
 		contentPane.add(atualizar);
+		
+		JButton delete = new JButton("delete");
+		delete.setBounds(512, 207, 89, 23);
+		contentPane.add(delete);
 
 	}
 }
