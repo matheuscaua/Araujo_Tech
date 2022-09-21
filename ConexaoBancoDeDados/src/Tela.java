@@ -249,6 +249,8 @@ public class Tela extends JFrame {
 						row[8] = funcionario.getEmail();
 						row[9] = funcionario.getCelular();
 						model.addRow(row);
+						
+						
 					}
 
 				} catch (Exception e1) {
@@ -293,6 +295,15 @@ public class Tela extends JFrame {
 		contentPane.add(atualizar);
 		
 		JButton delete = new JButton("delete");
+		delete.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String cpf = textCpf.getText();
+				funcionario.setCpf(cpf);
+				conexao.deletarFuncionario(funcionario);
+				conexao.atualizarFuncionario(funcionario);
+				
+			}
+		});
 		delete.setBounds(512, 207, 89, 23);
 		contentPane.add(delete);
 

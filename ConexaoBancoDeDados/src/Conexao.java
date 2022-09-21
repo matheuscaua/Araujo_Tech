@@ -18,9 +18,9 @@ public class Conexao {
 
 	public void conectar() {
 
-		String servidor = "jdbc:mysql://localhost/crudgama";
+		String servidor = "jdbc:mysql://localhost/db_funcionario";
 		String usuario = "root";
-		String senha = "mysql";
+		String senha = "52026842mM!@";
 		String driver = "com.mysql.cj.jdbc.Driver";
 
 		try {
@@ -134,6 +134,18 @@ public class Conexao {
 			
 		} catch (Exception e) {
 			System.out.println("Nao atualizou" + e.getMessage());
+			e.printStackTrace();
+		}
+	}
+	public void deletarFuncionario(Funcionario funcionario) {
+		try {
+			String query = "DELETE FROM tb_funcionarios WHERE cpf = ?";
+			PreparedStatement stmt = connection.prepareStatement(query);
+			stmt.setString(1, funcionario.getCpf());
+			stmt.execute();
+			
+		} catch (Exception e) {
+			System.out.println("Nao deletou" + e.getMessage());
 			e.printStackTrace();
 		}
 	}
